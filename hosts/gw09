@@ -12,3 +12,8 @@ gsq+9BAlcjdMWp9kVRQeWE0ptaQcvjTmIxQAshXYdDJ0fvG2l3Eb+GFMcriJWclm
 Pp4oMU9rYb6sEa/+6Kgv1bjxj/j3xkCWe6oiB0+EV6JXGPjIu4HRqRhG99CXmfoo
 EbsH7doEM2+VYIWIaOMuctT/jwNrkJ145CZIaT6l7kJt1MmfB0TDLyECAwEAAQ==
 -----END RSA PUBLIC KEY-----
+PMTUDiscovery = yes
+Digest = sha256
+ClampMSS = yes
+Address = gw09.freifunk-stuttgart.de
+Port = 11909

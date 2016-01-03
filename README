@@ -41,7 +41,7 @@ EOF
 cat <<EOF >>/etc/network/interfaces
 allow-hotplug ffsbb
 auto ffsbb
-iface ffsbb inet manual
+iface ffsbb inet static
     tinc-net ffsbb
     tinc-mlock yes
     tinc-pidfile /var/run/tinc.ffsbb.pid
