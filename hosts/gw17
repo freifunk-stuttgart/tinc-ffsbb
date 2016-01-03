@@ -1,0 +1,13 @@
+-----BEGIN RSA PUBLIC KEY-----
+MIIBCgKCAQEA6r3uQwFkSy2qIsKyk5cH0XHIchmLEebEnPV9Tq22dmb2xknccAbM
+vZQK0aIdSUgqvmv7wLcFbLU2b09oNd/plCzau6HIrZWH06VNQbZA8sP70rP4ZV1z
+h2TzUcoWS04fJEq4Ne3TZpKqAoNKNjCx/B2a7BhHGIpgbEE789utLX1/ljx3NhPW
+BbqtnwMbmJthgCLRObm8jInugFRLHLDUIv7XdB4Kj2AoVc73ye/kMLXIa96/vp1l
+r8aronI9vO8JGCkSVH24Wnbex5NjU5ol+q2MgjITw/lufExIOX1VC4fBPfBc9zuO
+iIpyUJwDqG9BVbbBhKbPwce9d9gludO9JQIDAQAB
+-----END RSA PUBLIC KEY-----
+PMTUDiscovery = yes
+Digest = sha256
+ClampMSS = yes
+Address = gw07.freifunk-weinstadt.de
+Port = 11917
