@@ -12,3 +12,8 @@ Pg7xlmfxV+UdbCOa40PJLiJxnpnKxgvUHbxUenHf1Tm02QWejXuiPvdpPdYC7M9+
 LDnmy77DX4LL+syAe9HS/XEiyw/tBKJr6LTyj3CM3M1tLcWnJ9yxz3rTvldXh2hN
 W8RCQqLU2fAXdNcO0K1/kwkIvb2DSSEtRfGFge/fFeTuoYUAacllezECAwEAAQ==
 -----END RSA PUBLIC KEY-----
+PMTUDiscovery = yes
+Digest = sha256
+ClampMSS = yes
+Address = gw05.freifunk-stuttgart.de
+Port = 11905
