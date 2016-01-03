@@ -12,17 +12,17 @@ if [ x"$TINCBASE" != x"/etc/tinc" ]; then
     rsync -rlHpogDtSvx $TINCBASE/. /etc/tinc/ffsbb
 fi
 if [ ! -e /etc/tinc/ffsbb/tinc.conf ]; then
-    ln -s $TINCBASE/ffsbb/tinc.conf.sample /etc/tinc/ffsbb/tinc.conf
+    ln -s $TINCBASE/tinc.conf.sample /etc/tinc/ffsbb/tinc.conf
 fi
 if [ ! -e /etc/tinc/ffsbb/subnet-up ]; then
-    ln -s $TINCBASE/ffsbb/subnet-up.sample /etc/tinc/ffsbb/subnet-up
+    ln -s $TINCBASE/subnet-up.sample /etc/tinc/ffsbb/subnet-up
 fi
 if [ ! -e /etc/tinc/ffsbb/subnet-down ]; then
-    ln -s $TINCBASE/ffsbb/subnet-down.conf.sample /etc/tinc/ffsbb/subnet-down
+    ln -s $TINCBASE/subnet-down.conf.sample /etc/tinc/ffsbb/subnet-down
 fi
-cd $TINCBASE/ffsbb
+cd $TINCBASE
 tincd -n ffsbb -K 4096
-if [ x"$TINCBASE" != x"/etc/tinc" ]; then
+if [ x"$TINCBASE" != x"/etc/tinc/ffsbb" ]; then
     rsync -rlHpogDtSvx /etc/tinc/ffsbb/hosts/$HOSTNAME  $TINCBASE/ffsbb/hosts/
 fi
  # Wenn man einen github Account hat, sonst den Key jemandem geben der einen hat.

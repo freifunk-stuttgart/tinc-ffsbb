@@ -1,0 +1,22 @@
+Name = $HOST
+
+# IPv6 + IPv4
+AddressFamily = any
+
+# Tinc nur über das öffentliche Netz laufen lassen
+BindToInterface = eth0
+Broadcast = mst
+ConnectTo = gw01
+ConnectTo = gw02
+ConnectTo = gw03
+ConnectTo = gw04
+ConnectTo = gw05
+ConnectTo = gw06
+ConnectTo = gw07
+ConnectTo = gw08
+ConnectTo = gw09
+ConnectTo = gw10
+
+Mode = switch
+Forwarding = kernel
+GraphDumpFile = /tmp/tinc.ffsbb.dotty
