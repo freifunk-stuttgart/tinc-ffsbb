@@ -1,8 +1,8 @@
 # tinc-ffsbb
-tinc L2 Routingbasis fuer OSPF
-Wer noch kein konfiguriertes tinc hat, kann direkt in /etc/tinc arbeiten, das dazu vorher loeschen, ansonsten TINCBASE anders setzen und bei Dateinamen aufpassen.
-Wenn neue Gateways dazu kommen / Dinge geaender werden muss das lokale Repository  aktualisiert werden, damit die Keys bekannt sind.
-
+#tinc L2 Routingbasis fuer OSPF
+#Wer noch kein konfiguriertes tinc hat, kann direkt in /etc/tinc arbeiten, das dazu vorher loeschen, ansonsten TINCBASE anders setzen und bei Dateinamen aufpassen.
+#Wenn neue Gateways dazu kommen / Dinge geaender werden muss das lokale Repository  aktualisiert werden, damit die Keys bekannt sind.
+#
 TINCBASE=/etc/tinc/ffsbb
 if [ -d "$TINCBASE" ]; then
     rm -rf $TINCBASE
@@ -38,12 +38,17 @@ Address = $HOSTNAME.freifunk-stuttgart.de
 Port = 119${HOSTNAME##gw}
 EOF
 
-cat <<'EOF' >>/etc/network/interfaces
+cat <<EOF >>/etc/network/interfaces
 allow-hotplug ffsbb
 auto ffsbb
 iface ffsbb inet manual
     tinc-net ffsbb
     tinc-mlock yes
     tinc-pidfile /var/run/tinc.ffsbb.pid
-    up ip l set dev $IFACE up
+    up ip l set dev \$IFACE up
+    address 10.191.255.$(sed 's/gw0*//' <<<$HOSTNAME)/24    # Z.B. 10.191.255.10
+    netmask 255.255.255.0
+    broadcast 10.191.255.255
+    post-up         /sbin/ip rule add iif \$IFACE table stuttgart priority 7000 || true
+    pre-down        /sbin/ip rule del iif \$IFACE table stuttgart priority 7000 || true
 EOF
