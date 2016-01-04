@@ -45,7 +45,6 @@ iface ffsbb inet static
     tinc-net ffsbb
     tinc-mlock yes
     tinc-pidfile /var/run/tinc.ffsbb.pid
-    up ip l set dev \$IFACE up
     address 10.191.255.$(sed 's/gw0*//' <<<$HOSTNAME)/24    # Z.B. 10.191.255.10
     netmask 255.255.255.0
     broadcast 10.191.255.255

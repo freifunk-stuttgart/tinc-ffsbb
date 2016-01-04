@@ -18,5 +18,4 @@ ConnectTo = gw09
 ConnectTo = gw10
 
 Mode = switch
-Forwarding = kernel
 GraphDumpFile = /tmp/tinc.ffsbb.dotty
