@@ -1,5 +1,0 @@
-PMTUDiscovery = yes
-Digest = sha256
-ClampMSS = yes
-Address = ms132.moonshot.fastwebserver.de.freifunk-stuttgart.de
-Port = 119ms132.moonshot.fastwebserver.de
