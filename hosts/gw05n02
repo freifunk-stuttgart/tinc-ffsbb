@@ -1,6 +1,0 @@
-PMTUDiscovery = yes
-Digest = sha256
-ClampMSS = yes
-Address = gw05n02.freifunk-stuttgart.de
-Port = 11905n02
-Port = 11905
