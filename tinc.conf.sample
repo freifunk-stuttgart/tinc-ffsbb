@@ -18,3 +18,4 @@ GraphDumpFile = /tmp/tinc.ffsbb.dotty
 ConnectTo = gw05n02
 ConnectTo = gw05n03
 ConnectTo = gw05n08
+ConnectTo = gw05n09
