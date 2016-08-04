@@ -1,7 +1,7 @@
 PMTUDiscovery = yes
 Digest = sha256
 ClampMSS = yes
-Address = gw05n09.freifunk-stuttgart.de
+#Address = gw05n09.freifunk-stuttgart.de
 Port = 11905
 
 -----BEGIN RSA PUBLIC KEY-----
