@@ -1,0 +1,19 @@
+PMTUDiscovery = yes
+Digest = sha256
+ClampMSS = yes
+Address = gw08n06.freifunk-stuttgart.de
+Port = 11908
+
+-----BEGIN RSA PUBLIC KEY-----
+MIICCgKCAgEAsS++SICoFlt3LVRf+NM4L7E7e3S442+n21/i1/A2IE9pzk7Ywq8A
++bkfg8qKojoJim3eD1vRpwnpvGAfO3zxTXud/SCOr1FCvumUj2w9ARUvKW6sqsux
+GHC6Bk9He+ujVtWcryDTV1f9u1F1omMBNGUDsXXGnC6KB8Vn3ty9/hz4JqTsRIE1
+fPDjYBkL7xK4pGm54wJQ2tNAhvyy1O9fgQ4HNspyISRGlgnxqWPvImohnZ7jYjUw
+ZMotL4GTmc1ZCMfp+2Pusq2qlx43t6VGIvokOiZJAIjHL91cf8NVe69Xy93FaA2r
+7X+iAS/VdZSISIT1LdrXr/yQEVT5ZXv6jU0GQ3Bif0/TVKdTtgw7yWgnHdG1UGtQ
+CazLj0EL9dtpTnsno5cJSSybHw0+vW3UF+BM3BbgJEawPXdYIh8BemYrkqpGBTLq
+GZ/d5N/zzeDhtQDD5nl8fsjyPmM6iK7ijpg2LyhYu4UlD/xixA2LQCKZKYrLYuL/
+oQ2ddEMJsfCB3JdkqnQszGlbOaxum9FfDL7UfxjKop5EsiRAQdGU7mEeuvLLZ04f
+Jr9KqO5PrKZtDUNJTSqJGkL2vsLfgGhplsFq8XXg+LjASwnOuBwcsLc/whjZWmoz
+Wy+tVgHkQP1XnJjZc0tNs8MnIvTvrY4m+mCu4ifi0KHv69WKBlVJHg0CAwEAAQ==
+-----END RSA PUBLIC KEY-----
