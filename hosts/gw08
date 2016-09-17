@@ -9,5 +9,5 @@ YI1k+B2njiToU71adiNGcr8RsMbhpca7BQIDAQAB
 PMTUDiscovery = yes
 Digest = sha256
 ClampMSS = yes
-Address = gw08.freifunk-stuttgart.de
+Address = gw08n00.ffs.ovh
 Port = 11908
