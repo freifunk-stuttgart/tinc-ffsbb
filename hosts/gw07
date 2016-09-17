@@ -9,5 +9,5 @@ CRhgGjQcRjMQg5GT09ZLQOoR2yG7sLD1mQIDAQAB
 PMTUDiscovery = yes
 Digest = sha256
 ClampMSS = yes
-Address = gw07.freifunk-stuttgart.de
+Address = gw07n00.ffs.ovh
 Port = 11907
