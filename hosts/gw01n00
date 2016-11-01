@@ -14,5 +14,5 @@ gHVPnN5P8nx6gMPvnipZKyrgK6HjtTX49gwAfiowUrSm2qI0ZOc1kM8CAwEAAQ==
 PMTUDiscovery = yes
 Digest = sha256
 ClampMSS = yes
-Address = gw01.freifunk-stuttgart.de
+Address = gw01n00.freifunk-stuttgart.de
 Port = 11901
