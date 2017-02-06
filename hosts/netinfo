@@ -9,5 +9,5 @@ TAU8wEuPdoN5Spzk//WD2alGAEgvxBEaHwIDAQAB
 PMTUDiscovery = yes
 Digest = sha256
 ClampMSS = yes
-#Address = netinfo.freifunk-stuttgart.de
+Address = netinfo.freifunk-stuttgart.de
 Port = 655
