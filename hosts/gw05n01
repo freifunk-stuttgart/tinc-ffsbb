@@ -15,5 +15,5 @@ W8RCQqLU2fAXdNcO0K1/kwkIvb2DSSEtRfGFge/fFeTuoYUAacllezECAwEAAQ==
 PMTUDiscovery = yes
 Digest = sha256
 ClampMSS = yes
-Address = gw05.freifunk-stuttgart.de
+Address = gw05n01.freifunk-stuttgart.de
 Port = 11905
