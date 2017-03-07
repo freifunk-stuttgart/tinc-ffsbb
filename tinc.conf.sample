@@ -6,18 +6,30 @@ AddressFamily = any
 # Tinc nur über das öffentliche Netz laufen lassen
 BindToInterface = eth0
 Broadcast = mst
-ConnectTo = gw01
-ConnectTo = gw05
-ConnectTo = gw07
-ConnectTo = gw08
-ConnectTo = gw09
-ConnectTo = gw10
-
 Mode = switch
 GraphDumpFile = /tmp/tinc.ffsbb.dotty
+
+ConnectTo = dhcp02
+ConnectTo = dhcp03
+ConnectTo = gw01n00
+ConnectTo = gw01n01
+ConnectTo = gw01n03
+ConnectTo = gw04n01
+ConnectTo = gw05n01
 ConnectTo = gw05n02
 ConnectTo = gw05n03
+ConnectTo = gw05n04
 ConnectTo = gw05n08
 ConnectTo = gw05n09
+ConnectTo = gw07n02
+ConnectTo = gw08n00
+ConnectTo = gw08n01
+ConnectTo = gw08n02
+ConnectTo = gw08n03
+ConnectTo = gw08n04
+ConnectTo = gw08n05
 ConnectTo = gw08n06
-ConnectTo = gw05n04
+ConnectTo = gw09
+ConnectTo = munin02
+ConnectTo = netinfo
+
