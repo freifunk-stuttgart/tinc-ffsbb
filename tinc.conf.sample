@@ -5,8 +5,8 @@ AddressFamily = any
 
 # Tinc nur über das öffentliche Netz laufen lassen
 BindToInterface = eth0
-Broadcast = mst
 Mode = switch
+IndirectData = yes
 GraphDumpFile = /tmp/tinc.ffsbb.dotty
 
 ConnectTo = dhcp02
